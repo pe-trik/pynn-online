@@ -1,0 +1,1 @@
+ffmpeg -i test.wav  -f s16le -acodec pcm_s16le -f wav pipe:1 2>/dev/null | nc  localhost 60019

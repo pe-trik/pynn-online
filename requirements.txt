@@ -1,0 +1,5 @@
+torchaudio==0.8.1
+numpy==1.19.0
+scipy==1.5.1
+torch==1.8.1+cu111
+webrtcvad==2.0.10
